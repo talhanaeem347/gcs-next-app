@@ -5,6 +5,7 @@ export const MyComponent = () => {
     const [num,setNum ] = React.useState(0);
   return (
     <div>
+        <h1>This is the Main Header</h1>
         <h1>{num}</h1>
         <button onClick={()=>setNum(num+1)}>Add</button>
         </div>
